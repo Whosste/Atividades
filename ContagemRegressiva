@@ -1,0 +1,18 @@
+public class ContagemRegressiva {
+
+    public static void main(String[] args) {
+        // O laço for é usado para repetir um bloco de código várias vezes.
+        for (int i = 10; i >= 0; i--){
+            System.out.println(i);
+            
+            //- Inicialização (int i = 10) A variável i é inicializada com o 
+            //valor 10. Ela será usada para controlar a contagem, que começa em 10.
+            //- Condição (i >= 0) A condição verifica se i é maior ou igual a 0.
+            //O laço só continuará executando enquanto i for maior ou igual a 0. 
+            //Ou seja, o laço vai parar quando i chegar a -1 (após imprimir o 0).
+            //- Atualização (i--) O operador i-- é uma forma abreviada de 
+            //i = i - 1. Ele faz com que o valor de i diminua 1 a cada ciclo do laço.
+            //- Dentro do laço, o método System.out.println(i) é chamado. 
+            //Ele imprime o valor atual de i na tela.
+                                     }    
+    }
