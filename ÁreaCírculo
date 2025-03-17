@@ -1,0 +1,14 @@
+import javax.swing.JOptionPane;
+public class areacirculo{
+
+    public static void main(String[] args) {
+        double pi, r, area;
+        pi=Double.parseDouble(JOptionPane.showInputDialog("Insira o valor de pi: "));
+        r=Double.parseDouble(JOptionPane.showInputDialog("Insira o valor do raio: "));
+        
+        area=pi*(r*r);
+        
+        JOptionPane.showMessageDialog(null, "O valor da área do círculo é: "+area);
+    }
+    
+}
