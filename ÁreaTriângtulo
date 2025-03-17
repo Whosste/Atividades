@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+public class areatriangulo {
+
+    public static void main(String[] args){
+        double base, h, area;
+        
+        base=Double.parseDouble(JOptionPane.showInputDialog("Insira o valor da base: "));
+        h=Double.parseDouble(JOptionPane.showInputDialog("Insira o valor de h: "));
+        
+        area=(base*h)/2;
+        
+        JOptionPane.showMessageDialog(null, "A área é:"+area+"u2");
+    }
+    
+}
